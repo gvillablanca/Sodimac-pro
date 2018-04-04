@@ -1,0 +1,28 @@
+{
+  "Maestros" : [
+    {
+      "nombre": "Raul Cortez",
+      "ciudad": "Santiago",
+      "categoria": "Jardineria",
+      "disponibilidad": "true"
+    },
+    {
+      "nombre": "Edwart Elric",
+      "ciudad": "Santiago",
+      "categoria": "Construcción",
+      "disponibilidad": "true"
+    },
+    {
+      "nombre": "Marcos Ruiz",
+      "ciudad": "Santiago",
+      "categoria": "Jardineria",
+      "disponibilidad": "true"
+    },
+    {
+      "nombre": "Raul Cortez",
+      "ciudad": "Santiago",
+      "categoria": "Terraza",
+      "disponibilidad": "true"
+    }
+  ]
+}

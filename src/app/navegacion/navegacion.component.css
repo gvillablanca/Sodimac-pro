@@ -1,0 +1,189 @@
+.header ul{
+  margin:0;
+  padding:0;
+}
+.header {
+  background-color: #f1f1f1;
+  padding: auto;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#navbar a {
+  
+  color: #000;
+  text-align: center;
+  padding: 14px ;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a[_ngcontent-c1] {
+    color: #787878;
+    font-size: 14px;
+}
+
+button.btn{
+  margin-right: 1em;
+}
+
+a.a-login{
+  color: #000;
+  font-weight: bolder;
+  margin-left: 0.5em;
+}
+
+
+
+
+
+#navbar a.active {
+  background-color: grey;
+  color: #000;
+}
+
+.content {
+  padding: 16px;
+}
+
+.dropdown{
+  position: relative;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+ ul{
+  list-style: none;
+ }
+
+li{
+     display: inline;
+  color: #787878;
+}
+
+a{
+  color: #787878;
+  font-size: 10px;
+}
+
+
+  .horizontal .spanLine {
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #fff;
+}
+
+.spanLine {
+    padding-left: 7px;
+    padding-right: 7px;
+     color: #C8C8C8;
+}
+
+.micuenta{
+
+    font-size: 20px;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+
+.dropdown{
+  position: relative;
+}
+
+header{
+  width: 100%;
+  background-color: #fff;
+  float: right;
+}
+
+.navegacion{
+  float: right;
+}
+
+img{
+  width: 40px;
+  margin-left: 2em;
+}
+
+
+
+
+
+
+
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+img{
+  width: 200px;
+  float: left;
+}
+
+
+input.form-control.mr-sm-10{
+  width: 300px;
+
+}
+
+h5#exampleModalLabel{
+  margin-left: 40%;
+  font-weight: bold;
+}
+
+.navbar{
+background-color: #fff !important;
+}
+
+.container-logo-modal img{
+  margin-left: 2em;
+  margin-top:-0.5em;
+  width: 25%;
+  padding-bottom: 1em;
+
+}
+
+.remember-pass a{
+  display: block;
+}
+
+#myHeader{
+  z-index: 2;
+}
+
+.pro{
+  margin-top: 14px;
+  margin-left: -8px;
+  width: 40px;
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  rotation: 90deg;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}

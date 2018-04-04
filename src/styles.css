@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+/* Detail Product Style */
+.detailContainer{
+    display:flex;
+    justify-content: center;
+    }
+.productBox{
+        display:flex;
+        justify-content: center;
+        width: 43em;
+        height: 30em;
+        -webkit-box-shadow: 10px 10px 20px -4px rgba(138,134,138,1);
+      -moz-box-shadow: 10px 10px 20px -4px rgba(138,134,138,1);
+      box-shadow: 10px 10px 20px -4px rgba(138,134,138,1);
+    }
+.imageBox{
+        width: 20em;
+        height: 20em;
+        margin:2em;
+      }
+.dataProduct{
+        margin: 1em 1.5em 1em 1em;
+      }
+.titleProduct{
+        font-size: 1.4em;
+        font-family: 'Roboto', sans-serif;
+      }
+.descriptionProduct{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
+  }
+  .priceProduct{
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;  
+  }
+.suggestion{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0.7em 0;
+  }
+  .listSuggestion{
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  .addButton{
+    background-color: #23527c;
+    border: 0.2em solid #23527c;
+    border-radius: 10px;
+    padding: 0.8em 0.5em;
+    color:#fff;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top:1em;
+  }
+  
+  .addButton:hover{
+    background-color: #fff;
+    border: 0.1em solid #23527c;
+    border-radius: 10px;
+    padding: 0.8em 0.5em;
+    color:#23527c;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top:1em;
+  }
+/* Detail First View  */
+.menuProducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 2px gray solid;
+    border-bottom: 3px black solid;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+  }
+  
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  
+  
+  .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  }
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+  }
+  .close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+  }
+  .close-button:hover {
+    background-color: darkgray;
+  }
+  .show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+  }
+  
+  .cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .boxx{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title{
+      font-family: 'Roboto, sans-serif';
+      font-size: 1em;
+      font-weight: 
+  }/* You can add global styles to this file, and also import other style files */
