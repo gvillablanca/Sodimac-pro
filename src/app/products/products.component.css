@@ -90,3 +90,10 @@ text-transform: uppercase;
 font-family: 'Roboto', sans-serif;
 cursor: pointer;
 }
+
+@media (max-width: 549px) {
+      .productBox{
+        width: 4em;
+    }
+}
+

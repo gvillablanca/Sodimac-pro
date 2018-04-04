@@ -8,7 +8,7 @@
         display:flex;
         justify-content: center;
         width: 43em;
-        height: 30em;
+        height: 32em;
         -webkit-box-shadow: 10px 10px 20px -4px rgba(138,134,138,1);
       -moz-box-shadow: 10px 10px 20px -4px rgba(138,134,138,1);
       box-shadow: 10px 10px 20px -4px rgba(138,134,138,1);
@@ -151,6 +151,53 @@
   }
   .title{
       font-family: 'Roboto, sans-serif';
-      font-size: 1em;
-      font-weight: 
-  }/* You can add global styles to this file, and also import other style files */
+      font-size: 0.9em;
+      font-weight: 400;
+      height: 5em;
+  }
+  .price{
+      font-size: 1.2em;
+      font-weight: 700;
+      font-family: 'Roboto, sans-serif';
+  }
+  .box{
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    justify-content: space-between;
+    height: 20em;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 1em;
+    border-radius: 2px 2px 2px 2px;
+    background-color:#f1f5f6;
+    cursor: pointer;
+  }
+  .button{
+    background-color: #23527c;
+    border: 0.2em solid #23527c;
+    border-radius: 10px;
+    padding: 0.8em 0.5em;
+    color:#fff;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top:1em;
+  }
+  
+  .button:hover{
+    background-color: #fff;
+    border: 0.1em solid #23527c;
+    border-radius: 10px;
+    padding: 0.8em 0.5em;
+    color:#23527c;
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top:1em;
+  }
+
+
