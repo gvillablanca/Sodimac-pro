@@ -129,7 +129,6 @@ export class ForemanComponent implements OnInit {
           <td>${data.descripcion}</td>
           </tr>
         `);
-
         }
       }
 
